@@ -1,0 +1,22 @@
+<link rel="stylesheet" href="./styles/main.css" media="screen" title="no title" charset="utf-8">
+
+<div class="container">
+  <div class="row">
+    <h1>Weather Check!!!</h1>
+      <div class="img-con">
+        <h1>Enter city and country code here</h1>
+        <input type="text" name="city" ng-model="city" required>
+        <input type="text" name="country" ng-model="country" required>
+        <button class="submit" ng-click="getweather( {city: city, country: country} )">Submit</button>
+          {{weather}}
+
+            </div>
+      </div>
+        </div>
+
+  </div>
+  <div class="main">
+  </div>
+</div>
+
+<scope>

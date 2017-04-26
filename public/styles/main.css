@@ -1,0 +1,212 @@
+body {
+  margin: 0;
+  background: url("../views/img/NY.jpg") no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+h1 {
+  position: relative;
+  margin: 10px;
+}
+a {
+  text-decoration: none;
+  margin: 0;
+  height: 50px;
+  width: 100px;
+}
+a:visited {
+  text-decoration: none;
+  color: white;
+}
+.header {
+  position: absolute;
+  display: inline-flex;
+  height: 100px;
+  width: 100%;
+  color: white;
+  background-color: blue;
+  font-family: sans-serif;
+  margin: 0;
+}
+@media (min-width: 450px ) and (max-width: 650px) {
+  .header {
+    height: 100%;
+    width: 100px;
+  }
+}
+
+@media (min-width: 450px ) and (max-width: 650px) {
+  .button-primary {
+    position: relative;
+    height: 25px;
+    width: 60px;
+    margin: 0px;
+    background-image: linear-gradient( to right, red, grey );
+    border-radius: 15px;
+  }
+  .clicks {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+  }
+
+  .info {
+    position: absolute;
+    top: 100px;
+    left: 100px;
+
+  }
+  .row {
+    position: relative;
+    background-color: blue;
+    height: 425px;
+    width: 350px;
+    font-family: sans-serif;
+    font-size: 15px;
+    top: 175px;
+    left: 125px;
+    color: white;
+    display: inline-block;
+    border-radius: 25px;
+  }
+}
+
+.item {
+  display: flex;
+  flex-flow: column;
+  position: relative;
+  height: auto;
+  margin: 5px;
+  text-decoration: underline;
+}
+@media (max-width: 450px){
+.auth {
+  position: relative;
+  display: inline-flex;
+  height: 25px;
+  width: 60px;
+  font-size: 10px;
+  top: 50px;
+  right: -100px;
+  margin: 0 10px 10px 0;
+}
+.button-primary {
+  height: 25px;
+  width: 100px;
+  margin: 0px;
+  background-image: linear-gradient( to right, red, grey );
+  border-radius: 15px;
+}
+.row {
+  position: relative;
+  background-color: blue;
+  height: 425px;
+  width: 350px;
+  font-family: sans-serif;
+  font-size: 15px;
+  top: 150px;
+  left: 25px;
+  color: white;
+  display: inline-block;
+  border-radius: 25px;
+}
+.info {
+  position: absolute;
+  top: 100px;
+
+}
+
+}
+.auth .button-primary h1 {
+  font-size: 8px;
+  border-radius: 15px;
+  margin: auto;
+}
+
+.feeds {
+  margin: 10px;
+}
+
+
+.img-con {
+  margin-left: 10px;
+}
+.imgs {
+  position: relative;
+  display: inline-block;
+  margin: 5px;
+  height: 100px;
+  width: 100px;
+}
+img {
+  height: 100px;
+  width: 100px;
+}
+
+.info {
+  float: left;
+  color: white;
+  margin-top: 15%;
+  margin-left: 15%;
+}
+
+.name {
+  float: left;
+}
+
+.connections {
+  float: left;
+  color: white;
+  margin-top: 15%;
+  margin-left: 25%;
+}
+
+.instagram img {
+  position: relative;
+  display: block;
+  height: 25px;
+  width: 25px;
+}
+
+@media (min-width: 650px) {
+  .row {
+    position: relative;
+    background-color: blue;
+    height: 425px;
+    width: 350px;
+    font-family: sans-serif;
+    font-size: 15px;
+    top: 150px;
+    left: 225px;
+    color: white;
+    display: inline-block;
+    border-radius: 25px;
+  }
+  .info {
+    position: absolute;
+    top: 100px;
+    left: 150px;
+
+  }
+  .header {
+    height: 100%;
+    width: 150px;
+  }
+  .button-primary {
+    position: relative;
+    height: 25px;
+    width: 60px;
+    margin: 0px;
+    background-image: linear-gradient( to right, red, grey );
+    border-radius: 15px;
+
+  }
+  .clicks {
+    position: absolute;
+    top: 200px;
+    left: 20px;
+  }
+
+}
